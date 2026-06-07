@@ -21,7 +21,7 @@ function getLocation() {
         })
     ],
     view: new ol.View({
-      center: ol.proj.fromLonLat([0, 0]),
+      center: ol.proj.fromLonLat([longitude , latitude]),
         zoom: 10
     })
 });
