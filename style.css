@@ -3,3 +3,16 @@
     width: 80%;
     margin: 0 auto;
 }
+#map {
+    animation: "anime" 1 1;
+}
+
+@keyframes anime {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+
+    }
+}
